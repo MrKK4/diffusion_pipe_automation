@@ -185,7 +185,7 @@ if [ ! -f "$SETUP_MARKER" ] || [ "$FORCE_SETUP" = "1" ]; then
   mkdir -p "$MODELS_DIR/vae/vae"
   
   # Download Qwen-Image DiT
-  hf download Comfy-Org/Qwen-Image_ComfyUI split_files/diffusion_models/qwen_image_bf16.safetensors \
+  hf download Comfy-Org/Qwen-Image_ComfyUI/ split_files/diffusion_models/qwen_image_2512_bf16.safetensors \
     --local-dir "$MODELS_DIR/diffusion_models"
   
   # Download Qwen Text Encoder (Qwen2.5-VL)
