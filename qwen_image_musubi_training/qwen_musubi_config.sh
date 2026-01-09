@@ -2,7 +2,7 @@
 
 # ====== Qwen-Image Musubi Config File ======
 # LoRA rank drives both network_dim and network_alpha
-LORA_RANK=16
+LORA_RANK=32
 
 # training schedule
 MAX_EPOCHS=16
